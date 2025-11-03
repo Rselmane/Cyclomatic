@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclomatic", "Cyclomatic\Cyclomatic.csproj", "{B816B41E-75A6-42FC-942E-9F248104946E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1D8F229A-EA1B-406A-AC68-B5A37FD37303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B816B41E-75A6-42FC-942E-9F248104946E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B816B41E-75A6-42FC-942E-9F248104946E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B816B41E-75A6-42FC-942E-9F248104946E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B816B41E-75A6-42FC-942E-9F248104946E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8F229A-EA1B-406A-AC68-B5A37FD37303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8F229A-EA1B-406A-AC68-B5A37FD37303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8F229A-EA1B-406A-AC68-B5A37FD37303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8F229A-EA1B-406A-AC68-B5A37FD37303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF0B2CC-2BEC-4253-8057-8A89AAF26AA4}
+	EndGlobalSection
+EndGlobal
