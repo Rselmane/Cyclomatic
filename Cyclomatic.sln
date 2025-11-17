@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clonage", "Clonage\Clonage.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatern", "AdapterPatern\AdapterPatern.csproj", "{D2BD1E30-836A-4383-B350-9360CBF8EE77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatern", "BridgePatern\BridgePatern.csproj", "{08296E35-23FE-4515-ACD5-96E9DFEF63DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
