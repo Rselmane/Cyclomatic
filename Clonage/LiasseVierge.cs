@@ -27,5 +27,10 @@ namespace Clonage
         {
 
         }
+
+        internal void ajoute(BonDeCommande bonDeCommande)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
