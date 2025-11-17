@@ -6,10 +6,10 @@
         {
         }
 
-        public override void controleSaisie()
+        protected override bool controleSaisie(string plaque)
         {
             Console.WriteLine("Contrôle des champs spécifiques " + "à la France");
-            implantation.dessineTexte();
+          return true;
         }
     }
 }

@@ -8,8 +8,8 @@ namespace BridgePatern
 {
     public abstract class FormulaireImpl
     {
-        public abstract void dessineTexte();
-        public abstract bool gereZoneSaisie();
+        public abstract void dessineTexte(string v);
+        public abstract string gereZoneSaisie();
       
     }
 }

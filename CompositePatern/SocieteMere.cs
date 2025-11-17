@@ -1,5 +1,7 @@
 ﻿public class SocieteMere : Societe
 {
+    protected List<Societe> filiales = new List<Societe>();
+
     public override string calculeCoutEntretiens()
     {
         string ret= "";
@@ -12,8 +14,10 @@
 
 
     }
-    public void ajouteFiliale(Societe societe)
+    public override void ajouteFiliale(Societe societe)
     {
         filiales.Add(societe);
     }
+
+   
 }

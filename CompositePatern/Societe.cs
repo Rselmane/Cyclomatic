@@ -4,7 +4,6 @@ using System.Collections.Generic;
 public abstract class Societe
 {
     protected List<object> vehicules = new List<object>();
-    protected List<Societe> filiales = new List<Societe>();
 
     public void ajouteVehicule()
     {
@@ -13,10 +12,7 @@ public abstract class Societe
 
     public abstract string calculeCoutEntretiens();
 
-    public void ajouteFiliale(Societe societe)
-    {
-        filiales.Add(societe);
-    }
+    public abstract void ajouteFiliale(Societe societe);
 
-   
+
 }

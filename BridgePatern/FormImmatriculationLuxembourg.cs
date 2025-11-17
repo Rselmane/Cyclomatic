@@ -6,10 +6,9 @@ internal class FormImmatriculationLuxembourg : FormulaireImmatriculation
     {
     }
 
-    public override void controleSaisie()
+   protected override bool controleSaisie(string v)
     {
         Console.WriteLine("Contrôle des champs spécifiques " + "au luxembourg");
-
-        implantation.dessineTexte();
+        return true;
     }
 }
