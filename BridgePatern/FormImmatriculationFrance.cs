@@ -8,7 +8,8 @@
 
         public override void controleSaisie()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Contrôle des champs spécifiques " + "à la France");
+            implantation.dessineTexte();
         }
     }
 }

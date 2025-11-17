@@ -16,5 +16,7 @@ public class Utilisateur
     formulaire2.affiche();
     if (formulaire2.gereSaisie())
       formulaire2.genereDocument();
+
+
   }
 }
