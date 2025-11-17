@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace DecoratorPatern
 {
-   public class ComposantGraphiqueVehicule
+   public interface  ComposantGraphiqueVehicule
     {
-        public void affiche() 
-        { 
-            Console.WriteLine("Affichage du véhicule");
-        }
+        public void affiche();
+        
 
     }
 }
