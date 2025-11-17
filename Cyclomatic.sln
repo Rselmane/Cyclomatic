@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatern", "AdapterPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatern", "BridgePatern\BridgePatern.csproj", "{08296E35-23FE-4515-ACD5-96E9DFEF63DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatern", "CompositePatern\CompositePatern.csproj", "{5315673A-8AC6-43E6-B086-0ACE70C384DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08296E35-23FE-4515-ACD5-96E9DFEF63DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5315673A-8AC6-43E6-B086-0ACE70C384DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5315673A-8AC6-43E6-B086-0ACE70C384DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5315673A-8AC6-43E6-B086-0ACE70C384DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5315673A-8AC6-43E6-B086-0ACE70C384DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
