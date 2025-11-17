@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clonage", "Clonage\Clonage.csproj", "{F1BA5C1A-5571-410E-8AC8-B02DACB13444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatern", "AdapterPatern\AdapterPatern.csproj", "{D2BD1E30-836A-4383-B350-9360CBF8EE77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F1BA5C1A-5571-410E-8AC8-B02DACB13444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1BA5C1A-5571-410E-8AC8-B02DACB13444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1BA5C1A-5571-410E-8AC8-B02DACB13444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BD1E30-836A-4383-B350-9360CBF8EE77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
