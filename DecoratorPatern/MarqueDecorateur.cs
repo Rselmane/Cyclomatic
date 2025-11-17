@@ -14,7 +14,7 @@
 
         public void afficheInfosTechnique(string infos)
         {
-            return;
+            Console.WriteLine( $"[MarqueDecorateur] {infos}");
         }
     }
 }

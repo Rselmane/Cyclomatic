@@ -8,7 +8,10 @@ namespace DecoratorPatern
 {
    public class ComposantGraphiqueVehicule
     {
-        public void affiche() { }
+        public void affiche() 
+        { 
+            Console.WriteLine("Affichage du véhicule");
+        }
 
     }
 }

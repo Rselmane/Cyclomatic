@@ -4,6 +4,6 @@ public class VueVehicule : ComposantGraphiqueVehicule
 {
     public  void affiche()
     {
-        return;
+        Console.WriteLine("Affichage de la vue véhicule");
     }
 }

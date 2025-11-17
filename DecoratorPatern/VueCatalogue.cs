@@ -3,10 +3,11 @@ using System;
 
 public class VueCatalogue
 {
-  static void Main(string[] args)
+  public static void Main()
   {
     VueVehicule vueVehicule = new VueVehicule();
-    ModeleDecorateur modeleDecorateur = new
+        vueVehicule.affiche();
+        ModeleDecorateur modeleDecorateur = new
       ModeleDecorateur(vueVehicule);
     MarqueDecorateur marqueDecorateur = new
       MarqueDecorateur(modeleDecorateur);
